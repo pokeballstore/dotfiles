@@ -1,0 +1,12 @@
+# Prevent sensitive files from being uploaded
+*.key
+*.pem
+*.crt
+*.log
+*.bak
+*.swp
+*.tmp
+.ssh/
+*.env
+.vscode/
+docker/config.json

@@ -1,0 +1,16 @@
+{
+  "remoteListeningOn": {
+    "port": 34197
+  },
+  "osReleaseId": "debian",
+  "arch": "x86_64",
+  "sshAuthSock": "",
+  "display": "",
+  "tmpDir": "/run/user/0",
+  "platform": "linux",
+  "execServerToken": "df48a0f7-a5ac-4f51-a871-2fbdddd55b7d",
+  "pid": 40364,
+  "ipcHandlePath": "/run/user/1000/vscode-ssh-askpass-007da59984e0c647b0181f5f52faff70e39a2441.sock",
+  "socksPort": 44989,
+  "startupTime": 1736864063315
+}
