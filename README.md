@@ -1,14 +1,13 @@
-# Dotfiles by slurpuff-0685
+# Dotfiles by pokeballstore
 
 Welcome to my dotfiles repository! This repository contains configuration files for various tools and software that I use daily. These dotfiles are designed to set up and customize your development environment quickly and efficiently.
-
----
 
 ## Features
 
 This repository includes configurations for the following tools:
+
 - **Zsh**: Personalized `.zshrc` for an enhanced shell experience, including aliases and plugins.
-- **Neovim**: A modern and fast configuration based on `LazyVim`, featuring:
+- **Neovim**: A modern and fast configuration based on LazyVim, featuring:
   - Custom key mappings.
   - Plugin management with Lazy.nvim.
   - Preconfigured options for productivity.
@@ -17,13 +16,10 @@ This repository includes configurations for the following tools:
 - **VS Code**: Essential settings for a consistent development environment.
 - **Docker**: Configuration for containerized workflows.
 
----
-
 ## Preview
 
 ### Folder Structure
-
-```plaintext
+```
 dotfiles/
 ├── .zshrc                  # Zsh shell configuration
 ├── .tmux.conf              # Tmux configuration
@@ -39,45 +35,54 @@ dotfiles/
     └── User/
         ├── settings.json   # User settings
         └── workspaceStorage/ # Workspace-specific configurations
+```
 
-Installation
-Prerequisites
+## Installation
 
-    Git: Ensure Git is installed on your system.
-    Zsh: Install Zsh and optionally Oh My Zsh.
-    Neovim: Install Neovim 0.8 or higher.
-    tmux: Install tmux for terminal multiplexing.
-    VS Code: Install Visual Studio Code for development.
+### Prerequisites
 
-Clone and Install
+- **Git**: Ensure Git is installed on your system.
+- **Zsh**: Install Zsh and optionally Oh My Zsh.
+- **Neovim**: Install Neovim 0.8 or higher.
+- **tmux**: Install tmux for terminal multiplexing.
+- **VS Code**: Install Visual Studio Code for development.
 
-    Clone this repository to your home directory:
+### Clone and Install
 
-git clone https://github.com/slurpuff-0685/dotfiles.git ~/dotfiles
+Clone this repository to your home directory:
+
+```bash
+git clone https://github.com/pokeballstore/dotfiles.git ~/dotfiles
+```
 
 Navigate to the directory:
 
+```bash
 cd ~/dotfiles
+```
 
 Run the setup script to back up existing configuration files and link the new ones:
 
-    ./setup_and_upload.sh
+```bash
+./setup_and_upload.sh
+```
 
-    Restart your terminal to apply the new configurations.
+Restart your terminal to apply the new configurations.
 
-Customization
+## Customization
 
 Feel free to customize these dotfiles to suit your needs. Each configuration file includes comments to guide you in making changes.
-Contributing
+
+## Contributing
 
 Contributions are welcome! If you have suggestions or improvements, feel free to submit a pull request.
-License
+
+## License
 
 This repository is licensed under the MIT License.
-Author
 
-Created and maintained by slurpuff-0685.
+## Author
 
+Created and maintained by pokeballstore.
 
----
 
