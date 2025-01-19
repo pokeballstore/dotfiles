@@ -81,7 +81,3 @@ Created and maintained by slurpuff-0685.
 
 ---
 
-### Steps to Add It to Your Repository:
-1. Open the `README.md` file in your repository:
-   ```bash
-   nvim README.md
